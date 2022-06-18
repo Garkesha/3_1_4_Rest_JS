@@ -11,6 +11,15 @@ public class UserDTO {
 
     private String[] userRoles;
 
+    public UserDTO(String username, String password, String name, String lastName, byte age, String[] userRoles) {
+        this.username = username;
+        this.password = password;
+        this.name = name;
+        this.lastName = lastName;
+        this.age = age;
+        this.userRoles = userRoles;
+    }
+
     public Long getId() {
         return id;
     }
