@@ -2,7 +2,6 @@ function editUser() {
 
     let form = window.formEditUser.editRoles;
     let new_Roles = [];
-
     let rolesList = document.createElement('ul');
 
     for (var i = 0; i < form.length; i++) {
